@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>构造函数</title>
+</head>
+<body>
+	
+</body>
+</html>
+<script type="text/javascript">
+function Person(name,sex,age){
+	this.name=name,
+	this.sex=sex,
+	this.age=age,
+	this.play=function(trool){
+		alert(this.name+"在玩"+trool);
+	}
+};
+let p1=new Person("李逵","男",500);
+
+p1.play("篮球")
+
+
+
+
+</script>
